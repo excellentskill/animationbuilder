@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animation Builder</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<canvas id="animation_canvas"></canvas>
+		<button id="btn_start">Start Building</button>
+		<span>width</span>
+		<input type="text" name="width" id="text_width" value="800">
+		<span>height</span>
+		<input type="text" name="height" id="text_height" value="600">
+		<span>transition time</span>
+		<input type="text" name="transition" id="text_transition_time" value="2">
+		<div id="text_result">
+			<span>video url</span>
+			<a href=""></a>
+		</div>
+
+		<script src="js/jquery-2.2.4.js"></script>
+		<script src="js/html2canvas.js"></script>
+    	<script type="text/javascript" src="server/node_modules/socket.io-client/socket.io.js"></script>
+    	<!-- <script type="text/javascript" src="http://logoanimationwizard.net/server/node_modules/socket.io/node_modules/socket.io-client/socket.io.js"></script> -->
+		<script src="js/video.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

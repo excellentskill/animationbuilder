@@ -1,0 +1,100 @@
+
+body
+{
+	background-color: #eee;
+}
+
+button
+{
+	margin: 10px;
+}
+
+span
+{
+	padding-left: 20px;
+}
+
+#text_width
+{
+	width: 100px;
+}
+
+#text_height
+{
+	width: 100px;
+}
+
+#text_result
+{
+}
+
+#animation_canvas
+{
+	margin: 80px;
+	width: 800px;
+	height: 600px;
+	background-color: black;
+}
+
+canvas
+{
+/*	width: 100%;
+	height: 100%;*/
+	position: absolute;
+}
+
+
+#data
+{
+	position: absolute;
+}
+
+.section_data
+{
+	/*max-width: 800px;*/
+	margin: 30px;
+	background-color: white;
+	height: 300px;
+}
+
+.section_data h1
+{
+	padding: 80px;
+}
+
+.type_title
+{
+}
+
+.type_tip .info
+{
+	padding: 20px;
+}
+
+.type_tip .info .info_picture
+{
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+
+.type_tip .info .info_name
+{
+	padding-left: 120px;
+}
+
+.type_tip .data_text
+{
+	padding: 20px 80px;
+}
+
+.type_logo
+{
+	text-align: center;
+}
+
+.type_logo img
+{
+	max-width: 100%;
+    height: 100%;
+}
